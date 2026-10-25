@@ -1,0 +1,22 @@
+{
+  "id": "/",
+  "name": "Kitty Voice Music Assistant",
+  "short_name": "Kitty",
+  "description": "Offline, hands-free voice-controlled local music player. Say 'Hey Kitty'.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "background_color": "#050508",
+  "theme_color": "#050508",
+  "orientation": "portrait",
+  "categories": ["music", "entertainment", "utilities"],
+  "prefer_related_applications": false,
+  "shortcuts": [
+    { "name": "Now Playing", "short_name": "Player", "url": "/?view=player", "icons": [{ "src": "/icons/icon.png", "sizes": "512x512" }] },
+    { "name": "Music Library", "short_name": "Library", "url": "/?view=library", "icons": [{ "src": "/icons/icon.png", "sizes": "512x512" }] }
+  ],
+  "icons": [
+    { "src": "/icons/icon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
